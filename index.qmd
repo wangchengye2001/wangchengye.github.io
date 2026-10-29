@@ -1,6 +1,6 @@
 ---
-title: "Chi Zhang"
-image: misc/info/photo.png
+title: "Wang Chengye"
+image: misc/info/个人图片.png
 about:
   id: hero-heading
   template: trestles
@@ -8,25 +8,20 @@ about:
   image-shape: round
   links:
     - icon: mailbox
-      text: chizapoth@gmail.com
-      href: mailto:chizapoth@gmail.com
+      text: 15265596190@163.com
+      href: mailto:15265596190@163.com
     - icon: github
-      text: chizapoth
-      href: https://github.com/chizapoth
-    - icon: linkedin
-      text: Chi Zhang
-      href: https://www.linkedin.com/in/chizapoth/
+      text: wangchengye2001
+      href: https://github.com/wangchengye2001
 ---
 
 ::: {#hero-heading}
 
 Hello! 
 
-I am a data scientist at **Roche**, working on clinical data science and open source software in pharma: [pharmaverse](https://pharmaverse.org).
+I am currently a doctoral student at Dongbei University of Finance and Economics. 
 
-I'm building [Data Apothecary's Notes](https://chizapoth.github.io/data-apothecary-notes/), a series of notes on modern data science skills for **drug development and clinical trials**.
+My research interests lie in development economics, innovation economics, and institutional economics.
 
-Previously, I worked in **public health and academia** in Norway (2019-2024). See [Archive](projects/projects.qmd) for past projects.
-
-I enjoy cooking and spending time in the mountains.
+I enjoy thinking about questions.
 :::

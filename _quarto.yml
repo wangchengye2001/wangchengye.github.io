@@ -4,45 +4,26 @@ project:
   
 website:
   page-navigation: true
-  title: "Hello, I'm Chi"
-  site-url: https://chizapoth.github.io
-  favicon: misc/info/favicon.png
-  repo-url: https://github.com/chizapoth/chizapoth.github.io
+  title: "Hello, I'm Wang Chengye"
+  site-url: https://wangchengye.github.io
+  favicon: misc/info/title.png
+  repo-url: https://github.com/wangchengye2001/wangchengye.github.io
   repo-actions: [edit, issue]
   
-  page-footer: 
-    left: "&copy; Copyright 2026, Chi Zhang"
-    right: 
-      - icon: github
-        href: https://github.com/chizapoth/chizapoth.github.io
-
+  
   navbar: 
     background: "#A9CCE3"
     search: true
     right: 
-      - text: "Data Apothecary's Notes"
-        href: https://chizapoth.github.io/data-apothecary-notes/
-      
-      - text: "R packages"
-        href: rpkg/rpkg.qmd
+      - text: "Publications"
+        href: Publiications/Publications.qmd
 
-      - text: "Blog"
-        href: blog/blog.qmd
+      - text: "Working Papers"
+        href: Working Papers/Working Papers.qmd
         
-      - text: "About me"
-        href: about_me.qmd
+      - text: "CV"
+        href: CV.pdf
         
-      - text: "Archive"
-        menu:
-          - text: "Talks"
-            href: talks/talks.qmd
-          - text: "Projects (2019-2024)"
-            href: projects/projects.qmd
-          - text: "Teaching (2020-2024)"
-            href: teaching/teaching.qmd
-        
-      #- text: "CV"
-      #  href: misc/info/CV-CZ-2407.pdf
 
 
 format:
