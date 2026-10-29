@@ -6,7 +6,7 @@ website:
   page-navigation: true
   title: "Hello, I'm Wang Chengye"
   site-url: https://wangchengye.github.io
-  favicon: misc/info/title.png
+  favicon: misc/info/title.jpg
   repo-url: https://github.com/wangchengye2001/wangchengye.github.io
   repo-actions: [edit, issue]
   
@@ -16,7 +16,7 @@ website:
     search: true
     right: 
       - text: "Publications"
-        href: Publiications/Publications.qmd
+        href: Publications/Publications.qmd
 
       - text: "Working Papers"
         href: Working Papers/Working Papers.qmd
