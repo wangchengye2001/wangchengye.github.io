@@ -1,6 +1,6 @@
 ---
 title: "Wang Chengye"
-image: misc/info/个人图片.jpg
+image: misc/info/个人图片1.jpg
 about:
   id: hero-heading
   template: trestles
