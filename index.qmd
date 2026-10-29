@@ -1,10 +1,10 @@
 ---
 title: "Wang Chengye"
-image: misc/info/个人图片.jpg
+image: misc/info/个人图片1.jpg
 about:
   id: hero-heading
   template: trestles
-  image-width: 7em
+  image-width: 9em
   image-shape: round
   links:
     - icon: mailbox
