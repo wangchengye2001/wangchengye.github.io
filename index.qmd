@@ -4,7 +4,7 @@ image: misc/info/个人图片.jpg
 about:
   id: hero-heading
   template: trestles
-  image-width: 10em
+  image-width: 9em
   image-shape: round
   links:
     - icon: mailbox
