@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Talks – Hello, I’m Chi</title>
+<title>Talks – Hello, I’m Wang Chengye</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -30,7 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../misc/info/favicon.png" rel="icon" type="image/png">
+<link href="../misc/info/title.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2575636bf12bba71c1c5b79222bd7450.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-a88deade1133a401a461acf351919818.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-781f72ce363c3b1128919b15f602eae9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-617973ba4c8b7ffbddc694c7ba8e752c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -114,7 +117,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -140,7 +143,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Hello, I’m Chi</span>
+    <span class="navbar-title">Hello, I’m Wang Chengye</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -150,40 +153,17 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://chizapoth.github.io/data-apothecary-notes/"> 
-<span class="menu-text">Data Apothecary’s Notes</span></a>
+    <a class="nav-link" href="../Publiications/Publications.qmd"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../rpkg/rpkg.html"> 
-<span class="menu-text">R packages</span></a>
+    <a class="nav-link" href="../Working Papers/Working Papers.html"> 
+<span class="menu-text">Working Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../CV.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about_me.html"> 
-<span class="menu-text">About me</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-archive" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Archive</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-archive">    
-        <li>
-    <a class="dropdown-item" href="../talks/talks.html">
- <span class="dropdown-text">Talks</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/projects.html">
- <span class="dropdown-text">Projects (2019-2024)</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../teaching/teaching.html">
- <span class="dropdown-text">Teaching (2020-2024)</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -266,7 +246,7 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="Q29tbXVuaXR5JTJDUXVhcnRv" data-listing-date-sort="1726869600000" data-listing-file-modified-sort="1753258630412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182" data-listing-title-sort="Use Quarto, Make Friends" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="Q29tbXVuaXR5JTJDUXVhcnRv" data-listing-date-sort="1726848000000" data-listing-file-modified-sort="1793261246663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182" data-listing-title-sort="Use Quarto, Make Friends" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/community_20240921_quartofriends/index.html" class="title listing-title">Use Quarto, Make Friends</a>
 </td>
@@ -279,7 +259,7 @@ Description
 
 </tr>
 
-<tr data-index="1" data-categories="UldELUVIUg==" data-listing-date-sort="1726610400000" data-listing-file-modified-sort="1753258630423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162" data-listing-title-sort="One step closer to better Electronic Health Records data" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="UldELUVIUg==" data-listing-date-sort="1726588800000" data-listing-file-modified-sort="1793261246698" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162" data-listing-title-sort="One step closer to better Electronic Health Records data" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/ehr_20240918_betterehr/index.html" class="title listing-title">One step closer to better Electronic Health Records data</a>
 </td>
@@ -292,7 +272,7 @@ Description
 
 </tr>
 
-<tr data-index="2" data-categories="Q29tbXVuaXR5" data-listing-date-sort="1720562400000" data-listing-file-modified-sort="1753258630411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174" data-listing-title-sort="CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-categories="Q29tbXVuaXR5" data-listing-date-sort="1720540800000" data-listing-file-modified-sort="1793261246660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174" data-listing-title-sort="CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/community_20240710_camis/index.html" class="title listing-title">CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations</a>
 </td>
@@ -305,7 +285,7 @@ Description
 
 </tr>
 
-<tr data-index="3" data-categories="UnN0YXRzJTJDUXVhcnRvJTJDVGVhY2hpbmc=" data-listing-date-sort="1718229600000" data-listing-file-modified-sort="1753258630429" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203" data-listing-title-sort="A one year recap on teaching statistcis to medical students: how can R and Quarto help?" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="UnN0YXRzJTJDUXVhcnRvJTJDVGVhY2hpbmc=" data-listing-date-sort="1718208000000" data-listing-file-modified-sort="1793261246720" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203" data-listing-title-sort="A one year recap on teaching statistcis to medical students: how can R and Quarto help?" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/rstats_20240613_teaching/index.html" class="title listing-title">A one year recap on teaching statistcis to medical students: how can R and Quarto help?</a>
 </td>
@@ -318,7 +298,7 @@ Description
 
 </tr>
 
-<tr data-index="4" data-categories="UnN0YXRzJTJDUXVhcnRvJTJDVGVhY2hpbmc=" data-listing-date-sort="1689890400000" data-listing-file-modified-sort="1753258630429" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="Transforming medical statistics classroom with R and Quarto" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-categories="UnN0YXRzJTJDUXVhcnRvJTJDVGVhY2hpbmc=" data-listing-date-sort="1689868800000" data-listing-file-modified-sort="1793261246717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="Transforming medical statistics classroom with R and Quarto" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/rstats_20230721_teaching/index.html" class="title listing-title">Transforming medical statistics classroom with R and Quarto</a>
 </td>
@@ -331,7 +311,7 @@ Description
 
 </tr>
 
-<tr data-index="5" data-categories="UHVibGljJTIwSGVhbHRo" data-listing-date-sort="1655330400000" data-listing-file-modified-sort="1753258630424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Sykdomspulsen: An automated public health surveillance platform" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-categories="UHVibGljJTIwSGVhbHRo" data-listing-date-sort="1655308800000" data-listing-file-modified-sort="1793261246702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Sykdomspulsen: An automated public health surveillance platform" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/ph_20220616_splverse/index.html" class="title listing-title">Sykdomspulsen: An automated public health surveillance platform</a>
 </td>
@@ -405,13 +385,14 @@ Description
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -426,7 +407,7 @@ Description
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/chizapoth\.github\.io");
+        var filterRegex = new RegExp("https:\/\/wangchengye\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -754,28 +735,8 @@ Description
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>© Copyright 2026, Chi Zhang</p>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/chizapoth/chizapoth.github.io/edit/main/talks/talks.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/chizapoth/chizapoth.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
-    <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/chizapoth/chizapoth.github.io">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-</ul>
-    </div>
-  </div>
-</footer>
 
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/wangchengye2001/wangchengye.github.io/edit/main/talks/talks.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/wangchengye2001/wangchengye.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
